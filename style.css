@@ -1,0 +1,53 @@
+@font-face {
+  font-family: OS;
+  src: url(./assets/fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+
+}
+
+@font-face {
+  font-family: OSC;
+  src: url(./assets/fonts/OpenSansCondensed-Bold.ttf);
+}
+
+/* General css start */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: OS, sans-serif;
+ }
+
+
+.btn__red, .btn__transparent {
+  border: 2px solid #DE2E54;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: OSC, sans-serif;
+  letter-spacing: 2px;
+  line-height: 150%;
+}
+
+.btn__red {
+  background: #DE2E54;
+}
+
+.btn__transparent {
+  background-color: transparent;
+  border: 2px solid #fff;
+  }
+
+.btn__red:hover {
+  cursor: pointer;
+  background:#fff;
+  color: #DE2E54;
+}
+
+.btn__transparent:hover {
+  cursor: pointer;
+  background-color: #DE2E54;
+}
+/* General css end */
