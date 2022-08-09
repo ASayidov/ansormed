@@ -18,7 +18,9 @@
   text-decoration: none;
   font-family: OS, sans-serif;
  }
-
+ .font__OSC {
+  font-family: OSC;
+ }
 
 .btn__red, .btn__transparent {
   border: 2px solid #DE2E54;
@@ -87,6 +89,28 @@ nav{
 
 /* Navbar end */
 
+/* Header start */
+  header {
+    background-color:#0EB4C1;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem  10rem 0 10rem;
+    color: #fff;
+
+    font-weight: 700;
+
+
+
+  }
+
+
+
+
+
+
+
+/* Header end */
+
 /* footer start */
 footer {
   display: flex;
@@ -99,5 +123,9 @@ footer {
 
 footer a {
   color: #fff;
+}
+
+footer li:last-child {
+  margin: 0;
 }
 /* footer end */
